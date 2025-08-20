@@ -16,7 +16,7 @@ export const DashboardComponent = () => {
 
   const chartData = selectedCategory.subItems.map((item) => ({
     name: item.name,
-    percent: parseInt(item.percent),
+    процент: parseInt(item.percent),
     id: item.id,
   }));
 
@@ -30,7 +30,7 @@ export const DashboardComponent = () => {
             <YAxis />
             <Tooltip />
             <Legend />
-            <Bar dataKey="percent" fill="#8884d8" />
+            <Bar dataKey="процент" fill="#8884d8" />
           </BarChart>
         </ResponsiveContainer>
       </div>
@@ -51,4 +51,4 @@ export const DashboardComponent = () => {
       </div>
     </div>
   );
-}
+};
