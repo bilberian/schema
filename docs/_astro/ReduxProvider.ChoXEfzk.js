@@ -1,0 +1,1 @@
+import{j as r}from"./jsx-runtime.D_zvdyIk.js";import{f as o,P as t}from"./react-redux.C8F6Pnst.js";import"./index.DqJjAbbi.js";const s=(e={},u)=>e,i=o({reducer:{temp:s},devTools:!1});function m({children:e}){return r.jsx(t,{store:i,children:e})}export{m as default};
