@@ -3,8 +3,8 @@ export const schemaData = [
     id: 'A',
     name: 'Корпус',
     subItems: [
-      { id: 'A1', name: 'Изготовление деталей', percent: '0,4' },
-      { id: 'A2', name: 'Изготовление узлов', percent: '23,1' },
+      { id: 'A1', name: 'Изготовление деталей', percent: '0.4' },
+      { id: 'A2', name: 'Изготовление узлов', percent: '23.1' },
       { id: 'A3', name: 'Изготовление секций', percent: '0' },
       { id: 'A4', name: 'Формирование корпуса судна', percent: '0' },
     ],

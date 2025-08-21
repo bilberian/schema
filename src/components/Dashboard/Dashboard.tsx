@@ -27,7 +27,7 @@ export const DashboardComponent = () => {
         <ResponsiveContainer width="100%" height={400}>
           <BarChart data={chartData}>
             <XAxis dataKey="name" />
-            <YAxis />
+            <YAxis domain={[0, 100]} />
             <Tooltip />
             <Legend />
             <Bar dataKey="процент" fill="#8884d8" />
